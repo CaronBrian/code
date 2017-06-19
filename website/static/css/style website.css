@@ -1,0 +1,43 @@
+body{
+    background-color: gainsboro ;
+}
+header {
+    background: #1C9CFF;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    margin: 10px 15px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background:url(../img/logo2.png)  no-repeat center;
+    display: block;
+}
+
+.center{
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+.row .col.s3 {
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 3px solid #1C9CFF;
+  border-radius: 15px;
+  min-width: 205px;
+  margin-left: 10px ;
+  margin-bottom: 15px;
+    background-color: lightgrey;
+}
+
+.row{
+  max-width: 750px;
+}
+
+
